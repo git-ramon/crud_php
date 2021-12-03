@@ -1,0 +1,126 @@
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+    } 
+
+    html{
+        height: 100%;
+    }
+    
+    body {
+        min-height: 100%;
+        margin: 0px;
+        background-size: 100%;
+        font-size: 15px;
+        height: 100%;
+        background-color: rgb(201, 113, 107);
+    }
+    
+    nav ul{
+        display: inline-flex;
+    }
+    
+    nav ul li{ 
+        padding: 10px;
+    }
+    
+    nav ul a{
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:white;
+        text-decoration: none;
+        }
+    
+    h2{
+        padding-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(180, 3, 3);
+        text-shadow: rgb(15, 15, 15) 1px 1px 1px;
+    }
+    
+    form{
+        padding-block-end: 70px;
+        max-width: 100%;
+    }
+    
+    label{
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    input[type=text], textarea{
+        padding: 3px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid rgb(180, 3, 3);
+    
+        border-color: rgb(180, 3, 3);
+        box-shadow: inset 0px 1px 0px 0px rgb(250, 210, 210);
+        color: black;
+    }
+    
+    input[type=submit], button[type=submit]{
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        width: 50%;
+    
+        border-color: rgb(180, 3, 3);
+        background: linear-gradient(to bottom, rgb(250, 1, 1)5%, rgb(180, 3, 3)100%);
+       /* box-shadow: inset 0px 1px 0px 0px rgb(250, 210, 210);*/
+        color: black;
+    }
+    
+    input[type=submit], button[type=submit]:hover{
+        background: linear-gradient(to bottom, rgb(180, 3, 3)5%, rgb(216, 106, 106)100%);
+        cursor: pointer;
+    }
+    
+    table {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    table th {
+        background-color: rgb(180, 3, 3);
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    tr{
+        padding: 10px;
+    }
+    
+    table td {
+        border-bottom: 1px solid rgb(180, 3, 3);
+        background-color: rgb(250, 210, 210);
+        color: black;
+        cursor: pointer;
+        text-align: center; 
+    }
+    
+    a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .linkeditar, .linkeexcluir, .button{
+        color: black;
+        text-decoration: none;
+    }
+    
+    tr:hover td{
+        background-color: rgb(180, 3, 3);
+    }
+    
+   
